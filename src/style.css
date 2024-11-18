@@ -1,0 +1,79 @@
+
+.head_container{
+    background-image: url(../images/bankimage.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+  }
+  ul{
+    display: flex;
+    gap: 100px;
+    margin-right: 70px;
+    font-size: larger;
+  }
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    /* background-color: aqua; */
+    
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(240, 13, 13);
+}
+h1{
+color: rgb(15, 239, 247);
+background-color: rgb(64, 25, 238);
+}
+.bigbox:hover{
+    background-color: aliceblue;
+  }
+  .nav{
+    background-color: blanchedalmond; 
+    margin-bottom: 50px;
+    gap: 70px;
+}
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;  
+   justify-content: space-between;
+   flex-direction: row;
+   /* background-color: aliceblue; */
+   padding-bottom: 100px;
+   list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    margin-left: 70px;
+}
+.bank{
+text-align: center;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    gap: 80px;
+}
+.images{
+    height: 200px;
+}
+.center{
+    margin-left: 500px;
+}
