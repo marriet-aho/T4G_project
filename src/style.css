@@ -66,6 +66,21 @@ background-color: rgb(64, 25, 238);
     justify-content: start;
     margin-left: 70px;
 }
+marquee {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 2px;
+  background-color: #25ecec;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin-top: 20px; 
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  position: fixed;
+  top: 50px; 
+  width: 100%; 
+   z-index: 999
+}
 .containerone{
   text-align: center;
 }
@@ -136,3 +151,9 @@ h3{
   text-align: center;
   margin-bottom: 50px;
 }
+/* Blinking text */ */
+/* .bank { text-align: center;
+    font-size: 2.5rem;
+    color:black;
+    animation: blink 1s step-start infinite;
+} */
