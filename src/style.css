@@ -157,3 +157,57 @@ h3{
     color:black;
     animation: blink 1s step-start infinite;
 } */
+
+.features {
+  text-align: center;
+  padding: 20px;
+}
+
+.features h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(to bottom, #ccf0ff, #b0e0fa);
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+/* .about {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+.about-image {
+  width: 30%;
+  height: auto;
+  border-radius: 8px;
+}
+
