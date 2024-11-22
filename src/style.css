@@ -124,9 +124,10 @@ marquee {
 
 }
 h3{
-  background-color: rgb(150, 63, 231);
+  background-color: rgb(204, 80, 204);
   text-align: center;
   padding-top: 10px;
+  margin-top: -10px;
 }
 .her{
   width: 40%;
@@ -241,13 +242,15 @@ h3{
 }
 
 /* Right Section */
-.right-section {
+/* .right-section {
   flex: 1;
   background-color: #ffffff;
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+  width: 300px;
+ 
+} */
  .contact-section{
   display: flex;
   justify-content: center;
@@ -255,16 +258,20 @@ h3{
   background-color: #a8aee675;
   padding-top: 30px;
 } 
+
 .form-container{
   background-color: #ebdc12;
   padding: 30px;
   border-radius: 10%;
   margin-bottom: 10px;
+  width: 400px;
   
 }
+
 .col:hover{
   background-color: #5bf18d;
 }
+
 .me{
   width: 400px;
   height: 500px;
@@ -274,11 +281,13 @@ h3{
 
 .right-section h1 {
   font-size: 2em;
-  color: #0047AB;
+  color: #e0e5ec;
+  width: 400px;
+  height: 100px;
 }
 
 .right-section p {
-  color: #555;
+  color: #0e0202;
   margin-top: 10px;
 }
 
@@ -300,6 +309,7 @@ h3{
 
 .form-group {
   margin-bottom: 15px;
+  width: 400px;
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
@@ -338,4 +348,20 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 .signin-text a:hover {
   text-decoration: underline;
+}
+.containertwo{
+  display: flex;
+  /* background-image: url(../images/new.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* gap:0px; */
+  /* width: 500px; */
+} 
+.left-section{
+  width: 300px;
+  height: 20%;
+}
+
+.ed{
+  gap: 700px;
 }
