@@ -233,6 +233,7 @@ h4{
   width: 500px;
   height: 800px;
   border-radius: 8px;
+  
   /* display: flex; */
   /* margin: 20px; */
 
@@ -254,6 +255,7 @@ h4{
   border-radius: 10px;
   background-color: #0df3f3;
 margin-top: -20px;
+justify-content: space-between;
 }
 .mad{
   width: 25%;
