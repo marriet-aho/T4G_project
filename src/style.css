@@ -216,22 +216,24 @@ h4{
   margin: auto;
   display: flex;
   background-color: #25ecec;
+  height: 700px;
+  
 }
 .about1 {
   /* background: white; */
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* width: 600px;
-  height: 350px; */
-  background-color: #5b8af1;
+  width: 700px;
+  height: 400px;
+  /* background-color: #5b8af1; */
   font-style: normal;
   font-size: large;
- 
+  max-height: 200px;
 }
 .about-image {
-  width: 500px;
-  height: 800px;
+  width: 550px;
+  height: 550px;
   border-radius: 8px;
   
   /* display: flex; */
@@ -264,6 +266,25 @@ justify-content: space-between;
   border-radius: 20px;
   gap: 30%;
  
+}
+.you1{
+  display: none;
+}
+.read1{
+  display: none;
+}
+
+.you2{
+  display: none;
+}
+.read2{
+  display: none;
+}
+.you3{
+  display: none;
+}
+.read3{
+  display: none;
 }
 .mad img{
   height: 400px;
@@ -314,7 +335,7 @@ justify-content: space-between;
   border: 5px black;
   border-radius: 20px;
 }
-
+/* sign up */
 .right-section h1 {
   font-size: 2em;
   color: #e0e5ec;
@@ -387,6 +408,14 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 .signin-text a:hover {
   text-decoration: underline;
+}
+
+/* sign In */
+.logi{
+
+}
+.in{
+  text-align: center;
 }
 .containertwo{
   display: flex;
