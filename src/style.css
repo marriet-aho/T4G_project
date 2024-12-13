@@ -349,7 +349,7 @@ justify-content: space-between;
 }
 
 .google-button {
-  width: 100%;
+  width: 350px;
   padding: 10px;
   background-color: #4285F4;
   color: white;
@@ -362,15 +362,16 @@ justify-content: space-between;
 
 .google-button:hover {
   background-color: #306bbf;
+  width: 350px;
 }
 
 .form-group {
-  margin-bottom: 15px;
-  width: 400px;
+  margin-bottom: 20px;
+  width: 330px;
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
-  width: 100%;
+  width: 330px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -411,12 +412,46 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 /* sign In */
-.logi{
+input{
 
 }
-.in{
-  text-align: center;
+.forgot a{
+color: red;
+margin-top: 10px;
 }
+.in{
+  width: 100%;
+  padding: 10px;
+  background-color: #0047AB;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.in:hover{
+  background-color: #306bbf;
+  width: 350px;
+}
+.Create{
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1;
+}
+.Create a{
+  color: #0047AB;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+.sign-form {
+  margin-bottom: 20px;
+  width: 320px;
+}
+
+/*  */
 .containertwo{
   display: flex;
   background-image: url(../images/saving-vs-investing.webp);
