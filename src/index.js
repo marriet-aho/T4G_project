@@ -3,12 +3,12 @@
 // let name=prompt("what is your name?");
 // alert("Welcome" ${name} "to Rieta's Bank");
 
-function show(){
-    let name=prompt("what is your name?");
-   alert(`Welcome ${name} to Rieta's Bank`);
-}
-let who =document.getElementById("why");
-who.addEventListener("click",show);
+// function show(){
+//     let name=prompt("what is your name?");
+//    alert(`Welcome ${name} to Rieta's Bank`);
+// }
+// let who =document.getElementById("why");
+// who.addEventListener("click",show);
 
 
 function hidetext(){
