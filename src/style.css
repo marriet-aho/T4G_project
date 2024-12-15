@@ -95,8 +95,24 @@ marquee {
     border: 2px solid #8c2ce6;
     border-radius: 10px;
 }
+h2, p {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: all 1s ease-out;
+}
+.welcome-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
 .images{
     height: 200px;
+}
+.fade-image {
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+.fade-image.show {
+  opacity: 1;
 }
 .center{
     margin-left: 600px;
@@ -485,12 +501,12 @@ label{
 /* featuresextra */
 
 /* General Reset */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-}
+} */
 
 /* Body Styles */
 .baddest {
@@ -547,7 +563,7 @@ label{
 }
 
 .naana-title {
-  color: #4a47a3;
+  /* color: #4a47a3; */
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
@@ -573,4 +589,50 @@ label{
 
 .apply-btn:hover {
   background-color: #00c360;
+}
+
+.child:hover{
+  border-radius: 40%;
+}
+.stud{
+  border-radius: 20%;
+}
+.business{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.venturess{
+  border-radius: 30%;
+  width: 300px;
+  height: 200px;
+}
+.pant{
+  border-radius: 50%;
+  height: 200px;
+}
+.company{
+  border-radius: 20%;
+  
+}
+
+/* loans and credits */
+.Credit{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Digital services */
+.internet{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.fan{
+  border-radius: 40%;
 }
