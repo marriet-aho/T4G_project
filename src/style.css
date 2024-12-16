@@ -81,7 +81,8 @@ marquee {
   position: fixed;
   top: 50px; 
   width: 100%; 
-   z-index: 999
+  z-index: 999;
+/*    z-index: 999; */
 }
 .containerone{
   text-align: center;
@@ -124,9 +125,15 @@ h4, p1 {
 
 .conta{
     background-color: rgb(150, 63, 231);
+    text-shadow: 1px 1px 2px darkgrey;
     display: flex;
     gap: 100px;
     padding-bottom: 20px;
+}
+
+.copyright{
+  background-color: rgb(150, 63, 231);
+  text-shadow: 1px 1px 2px lightgray;
 }
 .rate{
   display: flex;
@@ -429,13 +436,24 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 /* sign In */
-input{
+/* input{
 
+} */
+
+.forgot{
+color: white;
+text-shadow: 2px 2px 2px red;
+/* margin-top: 10px; */
+width: 80%;
 }
-.forgot a{
-color: red;
-margin-top: 10px;
+
+.forgot-pw{
+  display: flex;
+  width: 320px;
+  justify-content: center;
+  /* align-items: center; */
 }
+
 .in{
   width: 100%;
   padding: 10px;
@@ -636,4 +654,10 @@ label{
 }
 .fan{
   border-radius: 40%;
+}
+
+.bac a{
+  display: flex;
+  justify-content: space-around;
+  color: #0e0202;
 }
