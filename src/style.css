@@ -201,7 +201,18 @@ h4{
 }
 .ex{
   text-align: center;
+    font-size: 18px;
+    margin: 20px auto;
+    max-width: 600px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1s ease, transform 1s ease;
 }
+.username {
+  color: #1beb1b; 
+  font-weight: bold;
+}
+
 .features h1 {
   font-size: 24px;
   text-align: center;
@@ -218,7 +229,7 @@ h4{
 }
 
 .card {
-  background: linear-gradient(to bottom, #ccf0ff, #b0e0fa);
+  background: linear-gradient(to bottom, #ccf0ff, #60b9e9);
   border-radius: 10px;
   padding: 15px;
   width: 200px;
@@ -230,11 +241,17 @@ h4{
   width: 100%;
   height: auto;
   border-radius: 10px;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+.card img.visible {
+  opacity: 1;
 }
 
-.card h2 {
+.card h3 {
   margin: 10px 0 0;
   font-size: 18px;
+  color: #306bbf;
 }
 .main {
   padding: 20px;
@@ -688,3 +705,4 @@ label{
   justify-content: center;
   /* margin: 0 auto; */
 }
+

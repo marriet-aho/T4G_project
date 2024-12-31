@@ -13,3 +13,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 800 * (index + 1)); // staggered effect
     });
 });
+
