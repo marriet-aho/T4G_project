@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Base styles for desktop */
+/* body {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.header_container {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+} */
+
+/* Adjust for tablets */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .header_container {
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+
+/* Adjust for mobile phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .header_container {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+  
 .head_container{
     background-image: url(../images/img\ bankbac.jpg); 
      height: 500px;
@@ -15,12 +50,12 @@
     
   }
   .fade-in-text {
-    font-size: 18px; /* Adjust text size */
+    font-size: 21px; 
     color: #ffffff; /* Initial text color */
     background-color: #0191cabe; /* Background color */
     padding: 20px; /* Padding around the text */
     margin: 20px auto; /* Center with margin */
-    width: 80%; /* Adjust the container width */
+    width: 80%; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
     opacity: 0; /* Start fully transparent */
     transform: translateY(20px); /* Start slightly moved down */
@@ -753,4 +788,6 @@ label{
   justify-content: center;
   /* margin: 0 auto; */
 }
-
+h5{
+  font-size: medium;
+}
