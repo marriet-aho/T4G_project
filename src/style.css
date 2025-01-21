@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Base styles for desktop */
-/* body {
-  font-size: 18px;
-  line-height: 1.6;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Ensures no horizontal scrolling */
+  background-color: #0df3f32d;
 }
-.header_container {
-  font-size: 24px;
-  text-align: center;
-  padding: 20px;
-} */
 
 /* Adjust for tablets */
 @media (max-width: 768px) {
@@ -312,7 +309,7 @@ h4{
 }
 
 .card {
-  background: linear-gradient(to bottom, #ccf0ff, #60b9e9);
+  background: linear-gradient(to bottom, #ccf0ff, #1b81b8);
   border-radius: 10px;
   padding: 15px;
   width: 200px;
@@ -790,4 +787,10 @@ label{
 }
 h5{
   font-size: medium;
+}
+.conta{
+  top: 90px;
+}
+.dadavi{
+  color: blue;
 }
